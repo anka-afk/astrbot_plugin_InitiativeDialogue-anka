@@ -4,7 +4,7 @@ import json
 import random
 import logging
 from typing import List, Dict, Any, Optional
-from astrbot.api.all import AstrBotMessage, MessageType, MessageMember, MessageChain
+from astrbot.api.all import AstrBotMessage, MessageType, MessageMember, MessageChain, MessageEventResult
 from astrbot.api.event import MessageChain
 from astrbot.api.message_components import Plain
 logger = logging.getLogger("message_manager")
@@ -116,8 +116,7 @@ class MessageManager:
                 # 提交事件到平台
                 platform.commit_event(fake_event)
                 
-                msg_chain = MessageChain([Plain(message_text)])
-                await fake_event.send(msg_chain)
+                fake_event.set_result(MessageEventResult().message(message_text))
 
 
 
