@@ -1,0 +1,140 @@
+{
+    "time_settings": {
+        "description": "主动对话的时间设置",
+        "type": "object",
+        "items": {
+            "time_limit_enabled": {
+                "description": "是否启用时间段限制",
+                "type": "bool",
+                "hint": "启用后只在指定的开始时间和结束时间之间发送主动消息",
+                "default": true
+            },
+            "inactive_time_seconds": {
+                "description": "触发主动对话的不活跃时间(秒)",
+                "type": "int",
+                "hint": "用户多久不回复后会触发主动对话，默认7200秒(2小时)",
+                "default": 7200
+            },
+            "max_response_delay_seconds": {
+                "description": "随机回复的最大延迟时间(秒)",
+                "type": "int",
+                "hint": "触发主动对话后，在多长时间内随机发送消息，默认3600秒(1小时)",
+                "default": 3600
+            },
+            "activity_start_hour": {
+                "description": "活动开始时间(小时)",
+                "type": "int",
+                "hint": "每天几点开始允许发送主动消息，24小时制，默认8点",
+                "default": 8
+            },
+            "activity_end_hour": {
+                "description": "活动结束时间(小时)",
+                "type": "int",
+                "hint": "每天几点停止发送主动消息，24小时制，默认23点",
+                "default": 23
+            },
+            "max_consecutive_messages": {
+                "description": "最大连续主动消息数",
+                "type": "int",
+                "hint": "无回复情况下最多连续发送多少条主动消息，默认3条",
+                "default": 3
+            }
+        }
+    },
+    "whitelist": {
+        "description": "主动对话白名单配置",
+        "type": "object",
+        "items": {
+            "enabled": {
+                "description": "是否启用白名单",
+                "type": "bool",
+                "hint": "启用后只有白名单内的用户会触发主动对话",
+                "default": false
+            },
+            "user_ids": {
+                "description": "白名单用户ID列表",
+                "type": "list",
+                "hint": "允许触发主动对话的用户ID列表",
+                "default": []
+            }
+        }
+    },
+    "daily_greetings": {
+        "description": "每日定时问候配置",
+        "type": "object",
+        "items": {
+            "enabled": {
+                "description": "是否启用每日问候",
+                "type": "bool",
+                "hint": "启用后会在指定时间向用户发送早安和晚安问候",
+                "default": false
+            },
+            "morning_hour": {
+                "description": "早安问候时间(小时)",
+                "type": "int",
+                "hint": "发送早安问候的小时，24小时制，默认8点",
+                "default": 8
+            },
+            "morning_minute": {
+                "description": "早安问候时间(分钟)",
+                "type": "int",
+                "hint": "发送早安问候的分钟，默认0分",
+                "default": 0
+            },
+            "night_hour": {
+                "description": "晚安问候时间(小时)",
+                "type": "int",
+                "hint": "发送晚安问候的小时，24小时制，默认23点",
+                "default": 23
+            },
+            "night_minute": {
+                "description": "晚安问候时间(分钟)",
+                "type": "int",
+                "hint": "发送晚安问候的分钟，默认0分",
+                "default": 0
+            },
+            "morning_max_delay": {
+                "description": "早安消息最大随机延迟(分钟)",
+                "type": "int",
+                "hint": "早安消息发送的最大随机延迟时间(分钟)，防止同时发送，默认30分钟",
+                "default": 30
+            },
+            "night_max_delay": {
+                "description": "晚安消息最大随机延迟(分钟)",
+                "type": "int",
+                "hint": "晚安消息发送的最大随机延迟时间(分钟)，防止同时发送，默认30分钟",
+                "default": 30
+            }
+        }
+    },
+    "random_daily_activities": {
+        "description": "随机日常活动配置",
+        "type": "object",
+        "items": {
+            "daily_sharing": {
+                "description": "日常分享配置",
+                "type": "object",
+                "items": {
+                    "enabled": {
+                        "description": "是否启用日常分享",
+                        "type": "bool",
+                        "hint": "启用后bot会在非用餐时间段随机分享自己的日常活动",
+                        "default": true
+                    },
+                    "min_interval_minutes": {
+                        "description": "最小发送间隔(分钟)",
+                        "type": "int",
+                        "hint": "两次日常分享之间的最小间隔时间",
+                        "default": 180
+                    },
+                    "max_interval_minutes": {
+                        "description": "最大发送间隔(分钟)",
+                        "type": "int",
+                        "hint": "两次日常分享之间的最大间隔时间",
+                        "default": 360
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+name: astrbot_plugin_InitiativeDialogue # 这是你的插件的唯一识别名。
+desc: 使bot在用户长时间未发送消息时主动与用户对话的插件，初次使用请填写配置 # 插件简短描述
+help: 请看插件帮助。 # 插件的帮助信息
+version: v1.2.0 # 插件版本号。格式：v1.1.1 或者 v1.1
+author: Jason # 作者
+repo: https://github.com/advent259141/astrbot_plugin_InitiativeDialogue # 插件的仓库地址

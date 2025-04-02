@@ -1,0 +1,128 @@
+{
+  "user_records": {
+    "2968474907": {
+      "conversation_id": "408387fd-93a1-4afd-8615-4c94ba2e7148",
+      "timestamp": "2025-03-29T23:50:31.641158",
+      "unified_msg_origin": "aiocqhttp:FriendMessage:2968474907",
+      "consecutive_count": 0
+    }
+  },
+  "last_initiative_messages": {
+    "2968474907": {
+      "conversation_id": "408387fd-93a1-4afd-8615-4c94ba2e7148",
+      "unified_msg_origin": "aiocqhttp:FriendMessage:2968474907",
+      "timestamp": "2025-03-29T23:27:28.066221"
+    },
+    "2011393040": {
+      "conversation_id": "b8b30561-5851-43a0-aa0b-c2da79c24936",
+      "unified_msg_origin": "aiocqhttp:FriendMessage:2011393040",
+      "timestamp": "2025-03-29T22:50:46.362065"
+    },
+    "2145304834": {
+      "conversation_id": "be0ee27e-ec1f-44cb-aa82-ba0bab83f950",
+      "unified_msg_origin": "aiocqhttp:FriendMessage:2145304834",
+      "timestamp": "2025-03-29T23:09:06.063676"
+    },
+    "1946275451": {
+      "conversation_id": "c053fae8-157e-447c-bc12-e2a9aa7ae90a",
+      "unified_msg_origin": "aiocqhttp:FriendMessage:1946275451",
+      "timestamp": "2025-03-29T22:47:10.617594"
+    },
+    "2659452880": {
+      "conversation_id": "3a26d6f7-93f0-43cc-89b0-eb3323fa3d58",
+      "unified_msg_origin": "aiocqhttp:FriendMessage:2659452880",
+      "timestamp": "2025-03-29T22:49:56.894525"
+    },
+    "2099378587": {
+      "conversation_id": "0292561d-d923-43a8-aa78-765103dfef62",
+      "unified_msg_origin": "aiocqhttp:FriendMessage:2099378587",
+      "timestamp": "2025-03-29T22:55:38.901532"
+    },
+    "744938103": {
+      "conversation_id": "2a24bb31-6257-4be3-b481-cfccfc64c128",
+      "unified_msg_origin": "aiocqhttp:FriendMessage:744938103",
+      "timestamp": "2025-03-29T19:15:23.472832"
+    },
+    "1782606413": {
+      "conversation_id": "f0b2d17b-212a-4847-9330-d080192b1acf",
+      "unified_msg_origin": "aiocqhttp:FriendMessage:1782606413",
+      "timestamp": "2025-03-29T21:53:15.179585"
+    },
+    "1016926422": {
+      "conversation_id": "4bff2cf3-4eb6-42a3-b14d-9f55abf85530",
+      "unified_msg_origin": "aiocqhttp:FriendMessage:1016926422",
+      "timestamp": "2025-03-28T22:56:54.579566"
+    },
+    "2142384383": {
+      "conversation_id": "12127b8e-f918-463d-baf2-29c16a623800",
+      "unified_msg_origin": "aiocqhttp:FriendMessage:2142384383",
+      "timestamp": "2025-03-29T22:34:06.399527"
+    },
+    "2296499949": {
+      "conversation_id": "d34a39eb-aa1c-4763-8806-0d407a0911a8",
+      "unified_msg_origin": "aiocqhttp:FriendMessage:2296499949",
+      "timestamp": "2025-03-29T23:11:02.015172"
+    },
+    "3238354326": {
+      "conversation_id": "605e4090-b37b-4d9f-abba-ec5cf433b14d",
+      "unified_msg_origin": "aiocqhttp:FriendMessage:3238354326",
+      "timestamp": "2025-03-29T22:57:19.348456"
+    },
+    "248779352": {
+      "conversation_id": "f95230a8-2995-4f19-b12d-3be8fd1d4db6",
+      "unified_msg_origin": "aiocqhttp:FriendMessage:248779352",
+      "timestamp": "2025-03-29T04:48:04.158754"
+    },
+    "2676359727": {
+      "conversation_id": "aeefc3d6-54ff-45ca-8916-198103f70c86",
+      "unified_msg_origin": "aiocqhttp:FriendMessage:2676359727",
+      "timestamp": "2025-03-29T22:31:21.150920"
+    },
+    "3223172894": {
+      "conversation_id": "09b32dea-c0e8-414b-95ad-871918be515b",
+      "unified_msg_origin": "aiocqhttp:FriendMessage:3223172894",
+      "timestamp": "2025-03-29T22:45:25.449696"
+    },
+    "2455926047": {
+      "conversation_id": "1c3e691f-c746-4fef-9990-566a6007623a",
+      "unified_msg_origin": "aiocqhttp:FriendMessage:2455926047",
+      "timestamp": "2025-03-29T22:54:09.014619"
+    },
+    "2964571599": {
+      "conversation_id": "58ffcb90-1fcd-4026-bb5d-10ce5395cc06",
+      "unified_msg_origin": "aiocqhttp:FriendMessage:2964571599",
+      "timestamp": "2025-03-29T22:31:07.885443"
+    },
+    "3874669372": {
+      "conversation_id": "e40258b3-e808-4364-9092-6b28962dafda",
+      "unified_msg_origin": "aiocqhttp:FriendMessage:3874669372",
+      "timestamp": "2025-03-29T22:54:32.592454"
+    },
+    "2803942857": {
+      "conversation_id": "c7aa3f21-19dd-4bb2-97e6-c6f1fa947f63",
+      "unified_msg_origin": "aiocqhttp:FriendMessage:2803942857",
+      "timestamp": "2025-03-29T23:00:16.919378"
+    },
+    "312472546": {
+      "conversation_id": "7473f4bb-f265-45bc-9ea0-c15f14e50125",
+      "unified_msg_origin": "aiocqhttp:FriendMessage:312472546",
+      "timestamp": "2025-03-29T23:11:36.123496"
+    }
+  },
+  "users_received_initiative": [
+    "744938103",
+    "2099378587",
+    "3223172894",
+    "2676359727",
+    "2296499949",
+    "248779352",
+    "2964571599",
+    "2659452880",
+    "2145304834",
+    "1016926422",
+    "3874669372",
+    "2455926047",
+    "2011393040",
+    "312472546"
+  ]
+}
